@@ -5,7 +5,7 @@ import morgan from 'morgan'
 
 import { getAllArtikel, addArtikel } from './controller/artikelController.js'
 
-const PORT = 1989
+const PORT = 9090
 const app = express()
 
 const upload = multer({dest: './public'})
